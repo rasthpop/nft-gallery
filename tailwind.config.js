@@ -6,8 +6,9 @@ export default {
   ],
   theme: {
     screens: {
+      'md': '730px',
       'lg': '1024px',
-      'xl': '1280px',
+      'xl': '1364px',
       '2xl': '1570px' 
     },
     extend: {

@@ -10,6 +10,7 @@ export default function AttributeFilter(){
                 key={key}
                 title={key}
                 data={value}
+                mobile={false}
                 />
             ))}
         </div>

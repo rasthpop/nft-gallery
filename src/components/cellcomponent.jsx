@@ -5,7 +5,7 @@ export default function Cell(props){
     const [open, setOpen] = useState(false)
     return(
         <div onClick={() => {setOpen(!open)}} className="cursor-pointer">
-            <div className="text-lg bg-green-700 h-[200px] w-[200px] rounded-2xl">
+            <div className="text-lg bg-green-700 h-[150px] w-[150px] md:h-[180px] md:w-[180px]  2xl:h-[200px] 2xl:w-[200px] rounded-2xl">
                 <img/>
             </div>
             <div className="flex justify-between mt-2">

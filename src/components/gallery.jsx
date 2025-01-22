@@ -26,7 +26,7 @@ export default function Gallery(){
 
 ]
     return(
-        <div className="grid grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
             {data.map((obj) => (
                    <Cell 
                    number = {obj["Number"]}
