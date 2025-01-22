@@ -6,7 +6,7 @@ export default function Header(){
     return(
         <header className="text-[#251607] z-[9999] flex items-center justify-between w-full h-[85px] 
             lg:pt-8 lg:text-2xl lg:px-4
-            xl:pt-14 xl:text-3xl xl:px-10 
+            2xl:pt-14 2xl:text-3xl 2xl:px-10 
         "> 
             <a>Home</a>
             <a>Shibuya Capital</a>

@@ -9,7 +9,7 @@ function App() {
       <Header/>
       <span className=' border-b-2 border-[#251607] 
         lg:text-xl lg:mt-12 lg:mb-4 lg:pb-2 
-        xl:text-4xl xl:mt-24 xl:mb-6 xl:pb-4'
+        2xl:text-4xl 2xl:mt-24 2xl:mb-6 xl:pb-4'
       >filter</span>
       <div className=' gap-20 flex'>
         <div className='w-[25%]'>
